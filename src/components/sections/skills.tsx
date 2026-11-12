@@ -50,8 +50,8 @@ export function Skills() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="Skills"
-          title="A full-stack toolkit, sharpened through real projects"
-          description="Every skill below was exercised directly in the projects on this page — not just studied in isolation."
+          title="Skills across development and customer experience"
+          description="Technical skills sharpened through the projects on this page, alongside the platforms I use every day to support customers."
         />
 
         <div className="mt-14 grid gap-6 lg:grid-cols-2">
