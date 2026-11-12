@@ -18,25 +18,6 @@ export function GithubSection() {
         />
 
         <AnimatedSection className="mt-12">
-          <div className="grid gap-6 lg:grid-cols-2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_title=true&count_private=true&hide_border=true&bg_color=00000000&text_color=8a93ad&icon_color=4f8cff&title_color=4f8cff`}
-              alt={`${site.name}'s GitHub stats`}
-              className="w-full rounded-2xl border border-border bg-background-elevated p-2"
-              loading="lazy"
-            />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&hide_border=true&bg_color=00000000&text_color=8a93ad&title_color=4f8cff`}
-              alt={`${site.name}'s most used languages`}
-              className="w-full rounded-2xl border border-border bg-background-elevated p-2"
-              loading="lazy"
-            />
-          </div>
-        </AnimatedSection>
-
-        <AnimatedSection delay={0.1} className="mt-6">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={`https://ghchart.rshah.org/4f8cff/${username}`}
