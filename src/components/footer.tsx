@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Mail } from "lucide-react";
 import { GithubIcon } from "@/components/icons/github-icon";
 import { LinkedinIcon } from "@/components/icons/linkedin-icon";
@@ -48,11 +47,7 @@ export function Footer() {
         </div>
 
         <p className="text-sm text-foreground-muted">
-          © {year} {site.name}. Built with{" "}
-          <Link href="/" className="text-accent hover:underline">
-            Next.js
-          </Link>
-          .
+          © {year} {site.name}.
         </p>
       </div>
     </footer>
