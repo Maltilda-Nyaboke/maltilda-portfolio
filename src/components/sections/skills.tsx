@@ -1,12 +1,17 @@
 import {
   Braces,
+  Cloud,
   Database,
   GitBranch,
+  Headset,
   KanbanSquare,
   Layout,
+  LifeBuoy,
   MonitorSmartphone,
+  NotebookPen,
   PenTool,
   Server,
+  ShoppingBag,
   SquareCode,
   Table2,
   Terminal,
@@ -32,6 +37,11 @@ const icons: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
   "VS Code": SquareCode,
   Figma: PenTool,
   Trello: KanbanSquare,
+  Salesforce: Cloud,
+  Zendesk: Headset,
+  Freshdesk: LifeBuoy,
+  Shopify: ShoppingBag,
+  Notion: NotebookPen,
 };
 
 export function Skills() {

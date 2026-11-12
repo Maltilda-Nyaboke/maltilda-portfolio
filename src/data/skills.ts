@@ -59,4 +59,15 @@ export const skillGroups: SkillGroup[] = [
       { name: "Trello", level: "Comfortable" },
     ],
   },
+  {
+    title: "Customer Experience",
+    description: "Platforms for supporting customers and managing relationships.",
+    skills: [
+      { name: "Salesforce", level: "Proficient" },
+      { name: "Zendesk", level: "Proficient" },
+      { name: "Freshdesk", level: "Proficient" },
+      { name: "Shopify", level: "Proficient" },
+      { name: "Notion", level: "Proficient" },
+    ],
+  },
 ];

@@ -156,10 +156,6 @@ export function Contact() {
                   </>
                 )}
               </button>
-              <p className="text-xs text-foreground-muted">
-                This opens your email client with the message pre-filled — nothing is
-                sent from this page directly.
-              </p>
             </form>
           </AnimatedSection>
         </div>
